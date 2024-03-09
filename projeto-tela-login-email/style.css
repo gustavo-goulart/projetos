@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://ebac.art.br/upload/medialibrary/2b9/2b90828f0578d7ad2b3456dc885f0bc7.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Remove as bordas */
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  input {
+    height: 25px;
+  }
+}
