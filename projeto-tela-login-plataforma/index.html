@@ -3,14 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/estilos/reset.css" />
     <link rel="stylesheet" href="src/estilos/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Tela de Login</title>
   </head>
   <body>
-    <div>
+    <div class="container">
       <form>
         <h1>Entrar na Plataforma</h1>
-        <div>
+        <div class="input-container">
           <input type="email" placeholder="Email" required />
           <img
             width="20"
@@ -20,7 +29,7 @@
           />
         </div>
 
-        <div>
+        <div class="input-container">
           <input type="password" placeholder="Senha" required />
           <img
             width="20"
@@ -31,9 +40,9 @@
           <a href="#">Esqueci minha senha</a>
         </div>
 
-        <button type="submit">Entrar</button>
+        <button class="submit-button" type="submit">Entrar</button>
 
-        <div>
+        <div class="register-link">
           <p>Não está cadastrado? <a href="#">Faça seu cadastro aqui</a></p>
         </div>
       </form>
