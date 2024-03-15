@@ -3,26 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/estilos/reset.css" />
+    <link rel="stylesheet" href="src/estilos/style.css" />
     <title>Gerador de Senhas</title>
   </head>
   <body>
-    <h1>Gerador de Senhas</h1>
-    <p>
-      Utilize nosso gerador de senhas online para criar senhas fortes e seguras
-    </p>
+    <main>
+      <section class="hero">
+        <h1 class="title">Gerador de Senhas</h1>
+        <p class="subtitle">
+          Utilize nosso gerador de senhas online para criar senhas fortes e
+          seguras
+        </p>
+      </section>
 
-    <input type="text" name="password" id="password" />
+      <section class="box">
+        <div class="password">
+          <div class="text">
+            <input type="text" name="password" id="password" />
+          </div>
+          <div class="actions">
+            <button id="copy1">
+              <img src="src/imagens/copy.svg" alt="copy-password" width="42" />
+            </button>
+            <button id="renew">
+              <img src="src/imagens/renew.svg" alt="renew" width="42" />
+            </button>
+          </div>
+        </div>
+      </section>
 
-    <input
-      type="range"
-      name="password-length"
-      id="password-length"
-      value="16"
-      min="4"
-      max="64"
-    />
-
-    <button id="copy-password">Copiar Senha</button>
+      <input
+        type="range"
+        name="password-length"
+        id="password-length"
+        value="16"
+        min="4"
+        max="64"
+      />
+      <button id="copy2">Copiar Senha</button>
+    </main>
   </body>
   <script src="src/js/script.js"></script>
 </html>
