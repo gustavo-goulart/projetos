@@ -48,15 +48,44 @@
         </div>
       </section>
 
-      <input
-        type="range"
-        name="password-length"
-        id="password-length"
-        value="16"
-        min="4"
-        max="64"
-      />
-      <button id="copy2">Copiar Senha</button>
+      <section class="box customize">
+        <h3 class="title">Personalizar</h3>
+        <div class="actions">
+          <div class="password-length">
+            <p>Tamanho: <span id="password-length-text">16</span></p>
+            <input
+              type="range"
+              name="password-length"
+              id="password-length"
+              class="slider"
+              value="16"
+              min="4"
+              max="64"
+            />
+          </div>
+          <div class="config">
+            <label class="checkbox-container">
+              <span class="text">Maiúsculas</span>
+              <input type="checkbox" id="uppercase-check" checked />
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="checkbox-container">
+              <span class="text">Números</span>
+              <input type="checkbox" id="number-check" checked />
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="checkbox-container">
+              <span class="text">Símbolos</span>
+              <input type="checkbox" id="symbol-check" checked />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <div class="submit"><button id="copy2">Copiar Senha</button></div>
     </main>
   </body>
   <script src="src/js/script.js"></script>
