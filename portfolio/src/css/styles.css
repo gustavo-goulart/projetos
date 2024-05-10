@@ -77,7 +77,7 @@ section img {
 }
 
 section div h2 {
-  color: white;
+  color: #fff;
   font-size: 55px;
 }
 
@@ -113,7 +113,7 @@ section div button:hover {
 }
 
 .projetos h2 {
-  color: white;
+  color: #fff;
   font-size: 55px;
   text-align: center;
 }
@@ -133,7 +133,7 @@ section div button:hover {
 }
 
 .card h5 {
-  color: white;
+  color: #fff;
   font-size: 24px;
 }
 
@@ -145,7 +145,7 @@ section div button:hover {
 
 .card a {
   background-color: #f9004d;
-  color: white;
+  color: #fff;
   padding: 10px 20px;
   border-radius: 25px;
   cursor: pointer;
