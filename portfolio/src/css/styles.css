@@ -158,3 +158,9 @@ section div button:hover {
   background-color: transparent;
   border: 2px solid #f9004d;
 }
+
+.card-projetos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
