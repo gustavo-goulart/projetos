@@ -217,3 +217,235 @@ footer p {
   transform: scale(1.3);
   transition: 0.5s;
 }
+
+@media screen and (max-width: 1032px) {
+  .caixa-principal {
+    background-image: none;
+  }
+
+  .card-projetos {
+    display: block;
+    margin: auto 335px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .caixa-principal {
+    display: block;
+    height: 40vh;
+    width: 100vw;
+    background-image: none;
+    background-color: #191919;
+  }
+
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .meu-nome {
+    margin-top: -120px;
+    margin: -120px 160px;
+    text-align: center;
+  }
+
+  .meu-nome h1 {
+    font-size: 28px;
+  }
+
+  .meu-nome h3 {
+    font-size: 18px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section img {
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .info h2 {
+    font-size: 35px;
+  }
+
+  .info p {
+    font-size: 18px;
+  }
+
+  .projetos {
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .card-projetos {
+    display: block;
+    /* margin-left: 225px; */
+    margin: auto 235px;
+  }
+
+  .projetos {
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .projetos h2 {
+    font-size: 35px;
+  }
+
+  .card {
+    height: 365px;
+    width: 245px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .card img {
+    height: 60px;
+  }
+
+  .card h5 {
+    font-size: 14px;
+  }
+
+  .card p {
+    color: #e2b9c6;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .buttons-card {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card a {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .caixa-principal {
+    display: block;
+    height: 40vh;
+    width: 100vw;
+    background-image: none;
+  }
+
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .meu-nome {
+    margin-top: -205px;
+    margin-left: 60px;
+    margin-right: 0;
+  }
+
+  .meu-nome h1 {
+    font-size: 28px;
+  }
+
+  .meu-nome h3 {
+    font-size: 18px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section img {
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .info h2 {
+    font-size: 35px;
+  }
+
+  .info p {
+    font-size: 18px;
+  }
+
+  .projetos {
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .card-projetos {
+    display: block;
+    /* margin-left: 225px; */
+    margin: auto 85px;
+  }
+
+  .projetos {
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .projetos h2 {
+    font-size: 35px;
+  }
+
+  .card {
+    height: 365px;
+    width: 245px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .card img {
+    height: 60px;
+  }
+
+  .card h5 {
+    font-size: 14px;
+  }
+
+  .card p {
+    color: #e2b9c6;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .buttons-card {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card a {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
