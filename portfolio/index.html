@@ -3,26 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/root.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
     <title>Gustavo Goulart Dev</title>
   </head>
   <body>
-    <header>
+    <div class="caixa-principal" id="home">
       <nav>
-        <h2>Portfólio</h2>
+        <h2 class="portfolio">Portif<span>ólio</span></h2>
         <ul>
-          <li>Home</li>
-          <li>Sobre</li>
-          <li>Meus Projetos</li>
-          <li>Fale Comigo</li>
+          <li><a class="link-menu" href="#home">Home</a></li>
+          <li><a class="link-menu" href="#sobre">Sobre</a></li>
+          <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+          <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
         </ul>
       </nav>
-    </header>
 
-    <main>
-      <section>
-        <h1>Gustavo Goulart</h1>
+      <div class="meu-nome">
+        <h1>Gustavo <span>Goulart</span></h1>
         <h3>Programador Front End</h3>
-      </section>
-    </main>
+      </div>
+    </div>
+
+    <section id="sobre">
+      <img src="assets/images/gustavo.png" />
+      <div>
+        <h2>Sobre Mim</h2>
+        <p>
+          Sou um desenvolvedor web front-end apaixonado por transformar designs
+          criativos em experiências interativas e envolventes na web. Com
+          experiência e conhecimento criando aplicações com HTML, CSS,
+          JavaScript, React e Node.
+        </p>
+        <button>Entre em contato</button>
+      </div>
+    </section>
+
+    <div>
+      <h2>Principais Projetos</h2>
+
+      <div class="card">
+        <img src="assets/images/netflix.png" alt="Logo Netflix" />
+        <h5>Netflix</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad
+          error harum doloribus labore, odio necessitatibus officia illum rem
+          veritatis possimus aut
+        </p>
+        <a href="#">Ver projeto</a>
+      </div>
+    </div>
   </body>
 </html>
